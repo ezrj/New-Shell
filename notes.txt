@@ -1,0 +1,14 @@
+commmand pipelining - ouptut of one command becomes input of the next command
+use command list to create pipeline
+refer to lab3a, unnamed pipes, pipe()/dup2/dup2()
+
+output redirection - change stdout in file
+open the file for writing as a file descriptor
+use dup2 to redirect stdout 1 to fd
+
+input redirection - change stdin from file
+opne the file ffor readinf as a file descritpor
+use dup2 to reidrect stdin from fd
+
+handle commands in the background
+	return the user prompt to user control 
